@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA7AE112B20FBFF00FC977C /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7AE102B20FBFF00FC977C /* SecondPage.swift */; };
+		CEA7AE132B212C4500FC977C /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7AE122B212C4500FC977C /* ChatData.swift */; };
+		CEDDB67B2B21335A00374133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDB67A2B21335A00374133 /* ContentView.swift */; };
+		CEDDB67D2B21383D00374133 /* RowStakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDB67C2B21383D00374133 /* RowStakView.swift */; };
+		CEDDB67F2B21385300374133 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDB67E2B21385300374133 /* ActionButton.swift */; };
+		CEDDB6812B213B7E00374133 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDB6802B213B7E00374133 /* TextField.swift */; };
+		CEDDB6832B213F6400374133 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDB6822B213F6400374133 /* FirstPage.swift */; };
 		CEFFEE362B20589300C41274 /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEE352B20589300C41274 /* SwiftUI_BasicsApp.swift */; };
-		CEFFEE382B20589300C41274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEE372B20589300C41274 /* ContentView.swift */; };
 		CEFFEE3A2B20589600C41274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFFEE392B20589600C41274 /* Assets.xcassets */; };
 		CEFFEE3D2B20589600C41274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFFEE3C2B20589600C41274 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEA7AE102B20FBFF00FC977C /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		CEA7AE122B212C4500FC977C /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
+		CEDDB67A2B21335A00374133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDDB67C2B21383D00374133 /* RowStakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowStakView.swift; sourceTree = "<group>"; };
+		CEDDB67E2B21385300374133 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		CEDDB6802B213B7E00374133 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		CEDDB6822B213F6400374133 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		CEFFEE322B20589300C41274 /* SwiftUI-Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFEE352B20589300C41274 /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
-		CEFFEE372B20589300C41274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEFFEE392B20589600C41274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFFEE3C2B20589600C41274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				CEFFEE352B20589300C41274 /* SwiftUI_BasicsApp.swift */,
-				CEFFEE372B20589300C41274 /* ContentView.swift */,
+				CEDDB67A2B21335A00374133 /* ContentView.swift */,
+				CEDDB6822B213F6400374133 /* FirstPage.swift */,
+				CEA7AE102B20FBFF00FC977C /* SecondPage.swift */,
+				CEDDB6802B213B7E00374133 /* TextField.swift */,
+				CEA7AE122B212C4500FC977C /* ChatData.swift */,
+				CEDDB67C2B21383D00374133 /* RowStakView.swift */,
+				CEDDB67E2B21385300374133 /* ActionButton.swift */,
 				CEFFEE392B20589600C41274 /* Assets.xcassets */,
 				CEFFEE3B2B20589600C41274 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFFEE382B20589300C41274 /* ContentView.swift in Sources */,
 				CEFFEE362B20589300C41274 /* SwiftUI_BasicsApp.swift in Sources */,
+				CEDDB67B2B21335A00374133 /* ContentView.swift in Sources */,
+				CEA7AE112B20FBFF00FC977C /* SecondPage.swift in Sources */,
+				CEDDB6812B213B7E00374133 /* TextField.swift in Sources */,
+				CEDDB67D2B21383D00374133 /* RowStakView.swift in Sources */,
+				CEA7AE132B212C4500FC977C /* ChatData.swift in Sources */,
+				CEDDB67F2B21385300374133 /* ActionButton.swift in Sources */,
+				CEDDB6832B213F6400374133 /* FirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
